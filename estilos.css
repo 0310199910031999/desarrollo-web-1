@@ -1,8 +1,58 @@
 .pantalla
 {
-
-}
-.operaciones
-{
+    width: 94%;
+    height: 16%;
+    border-color: black;
+    background-color: darkslategrey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 5vw;
+    padding-top: 3%;
+    padding: 3%;
+    text-align: right;
+    color: ivory;
     
+}
+.operacion
+{
+    color:aqua;
+    background-color: darkslategrey;
+    border: hidden;    
+}
+.contenedor
+{
+    width: 30%;
+    align-content: center;
+    height: 80%;
+    border-radius: 20px;
+    background-color: dimgray;
+    margin-top: 5%;
+    background-color: teal;
+}
+button
+{
+    width: 20%;
+    border-radius: 100%;
+    font-size: 3vw;
+    margin: 5px;
+    height: 14%;
+    
+}
+.buttonh
+{
+    visibility: hidden;
+}
+.numeros
+{
+    color: whitesmoke;
+    border: hidden;
+    background: transparent;
+}
+body
+{
+    background-image: url(f.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-self: center;
+    background-position: bottom;
 }
