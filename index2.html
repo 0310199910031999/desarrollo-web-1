@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script type="text/javascript">
+    function arreglo(){
+        var datos =[278813, "John Lara", "Hombre", 21];
+        console.log(datos);
+        console.log(datos[1]);
+        console.log(datos.length);
+        console.log(datos[datos.length-1]);
+        
+        dato[0] = 123;
+        console.log(dato);
+        console.log(datos.reverse());
+        
+    }
+    function condiciones()
+    {
+        if(10>3)
+        {
+            console.log("10 es mayor que 3")
+        }
+        if("Adios" == "Hola")
+        {
+
+        }
+        else{
+
+        }
+
+    }
+    function calculador()
+    {
+        var operacion = prompt("Ingresa que operacion deseas realizar \n 1. Suma \n 2. Resta \n 3. Multiplicación \n 4. Divición");
+        var numero1 = parseInt(prompt("Ingresa el numero 1"));
+        var numero2 = parseInt(prompt("Ingresa el numero 2"));
+
+        var resultado;
+        switch(operacion)
+        {
+            case "1":
+            resultado = numero1 + numero2;
+            break;
+            case "2":
+            resultado = numero1 - numero2;
+            break;
+            case "3":
+            resultado = numero1 * numero2;
+            break;
+            case "4":
+            resultado = numero1/numero2;
+            break;
+            default:
+            alert("Ingresa opcion valida");
+            break;
+        }
+        alert("El resultado es: "+ resultado);
+    }
+</script>
+</html>
